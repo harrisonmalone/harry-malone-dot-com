@@ -1,17 +1,21 @@
-body {
+* {
   margin: 0px;
 }
 
-.container {
+body {
   height: 100vh;
-  background: blue;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  background: dodgerblue;
+  margin: 0px 10px;
 }
 
-nav {
-  height: 50px;
-  width: 80%;
-  background: red;
+h1 {
+  font-size: 100px;
+  color: white;
+}
+
+a {
+  color: rgba(60,56,58,1);
 }
