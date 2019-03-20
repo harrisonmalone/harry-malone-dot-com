@@ -9,6 +9,7 @@ body {
   align-items: center;
   background: dodgerblue;
   margin: 0px 10px;
+  overflow: hidden;
 }
 
 h1 {
