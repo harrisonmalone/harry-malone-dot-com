@@ -1,0 +1,17 @@
+body {
+  margin: 0px;
+}
+
+.container {
+  height: 100vh;
+  background: blue;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+nav {
+  height: 50px;
+  width: 80%;
+  background: red;
+}
