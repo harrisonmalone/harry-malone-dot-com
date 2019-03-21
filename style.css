@@ -28,6 +28,6 @@ a {
   display: block;
 }
 
-.button:hover {
+.button:active {
   background: yellow;
 }
