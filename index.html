@@ -9,6 +9,12 @@
 </head>
 <body>
   <h1>Hi my name is <a href="https://gist.github.com/harrisonmalone">Harry Malone</a></h1>
-  <div class="button"></div>
+  <div id="button"></div>
 </body>
+<script>
+  const button = document.getElementById('button')
+  button.addEventListener('click', (e) => {
+    e.currentTarget.style.background = 'yellow';
+  })
+</script>
 </html>
