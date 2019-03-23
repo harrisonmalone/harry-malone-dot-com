@@ -1,12 +1,14 @@
+/* remove all margin and padding */
+
 * {
   margin: 0px;
+  padding: 0px;
 }
+
+/* html elements */
 
 body {
   height: 100vh;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   background: dodgerblue;
   margin: 0px 10px;
   overflow: hidden;
@@ -21,13 +23,53 @@ a {
   color: rgba(60,56,58,1);
 }
 
+ul {
+  list-style-type: none;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white;
+  background: black;
+  position: absolute;
+  top: 5px;
+  width: 110px;
+}
+
+li {
+  padding: 5px 0px;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
+}
+
+/* classes */
+
+.ham {
+  font-size: 30px;
+}
+
+/* ids */
+
 #button {
-  height: 80px;
-  width: 300px;
-  background: red;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+#button label span {
   display: block;
 }
 
-/* .button:active {
-  background: yellow;
-} */
+#button input:checked + span + .menu {
+  display: inline-block;
+}
+
+#button label input {
+  display: none;
+}
+
+.menu {
+  display: none;
+  position: relative;
+}

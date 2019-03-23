@@ -5,16 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Harry Malone</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Hi my name is <a href="https://gist.github.com/harrisonmalone">Harry Malone</a></h1>
-  <div id="button"></div>
+  <div class="container">
+    <div id="button">
+      <label>
+        <input type="checkbox" value="1" id="box"><span class="fas fa-bars ham"></span>
+        <div class="menu">
+          <ul>
+            <a href="#1"><li>Menu 1</li></a>
+            <a href="#2"><li>Menu 2</li></a>
+            <a href="#3"><li>Menu 3</li></a> 
+          </ul>
+        </div>
+      </label>
+    </div>
+  </div>
 </body>
-<script>
-  const button = document.getElementById('button')
-  button.addEventListener('click', (e) => {
-    e.currentTarget.style.background = 'yellow';
-  })
-</script>
 </html>
